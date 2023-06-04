@@ -1,0 +1,51 @@
+/* h1{
+    background-color: red;
+} */
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.home_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home_header a {
+margin-right: 20px;
+text-decoration: inherit;
+color: rgba(0,0,0,0.87);
+font-size: 15px;
+}
+.home_header a:hover {
+    text-decoration: underline;
+    }
+ #img{
+    height: 32px;
+    font-weight: bolder;
+    margin-right: 32px;
+ }   
+
+.home_headeright{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+#google-logo{
+    height: 88%;
+    width: 35%;
+    margin-left: 36%;
+    margin-top:-1%;
+}
+#home_body{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+.home_inputcontainer{
+    margin-top: -7%;
+}
